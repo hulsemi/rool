@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Electron Semi</title>
+<meta name="description" content="Get in touch with Electron Semi for semiconductor design services, project enquiries, or general questions.">
+<link rel="icon" href="assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="container">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/logo.jpeg" alt="Electron Semi logo">
+      <span>ELECTRON SEMI</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="#form" class="btn btn-primary"><span class="long">Send a message</span><span>→</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">CONTACT</div>
+      <h1>Let's talk about your project.</h1>
+      <p class="lede">For service enquiries, use the <a href="services.html#enquiry" style="color:var(--violet)">Request a Service</a> form so we capture the right project details. For everything else, use the form below.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid-2" style="align-items:start">
+
+      <div class="contact-info">
+        <div class="item">
+          <div class="icon">@</div>
+          <div>
+            <h4>Email</h4>
+            <p>[PLACEHOLDER — YOUR_EMAIL@example.com]</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">☎</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 91640055XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">◎</div>
+          <div>
+            <h4>Location</h4>
+            <p> Bengaluru,KA,India</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">↗</div>
+          <div>
+            <h4>Social</h4>
+            <p><a href="#" style="color:var(--violet)">LinkedIn</a> · <a href="#" style="color:var(--violet)">X (Twitter)</a> </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-wrap" id="form">
+        <form data-es-form="contact" novalidate>
+          <div class="hp-field" aria-hidden="true">
+            <label for="ct-website">Leave this field empty</label>
+            <input type="text" id="ct-website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="ct-name">Name <span class="req">*</span></label>
+              <input type="text" id="ct-name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="ct-email">Email <span class="req">*</span></label>
+              <input type="email" id="ct-email" name="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="ct-phone">Phone</label>
+              <input type="tel" id="ct-phone" name="phone" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="ct-subject">Subject <span class="req">*</span></label>
+              <input type="text" id="ct-subject" name="subject" required>
+            </div>
+            <div class="field full">
+              <label for="ct-message">Message <span class="req">*</span></label>
+              <textarea id="ct-message" name="message" required></textarea>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-block">Send message →</button>
+          </div>
+          <div class="form-msg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.jpeg" alt="Electron Semi logo">
+          <span>ELECTRON SEMI</span>
+        </div>
+        <p style="max-width:32ch">Semiconductor design services — analog layout, physical design, and verification. <i>Dream it, our hands are ready for it</i></p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li> contact@elctronsemi.com </li>
+          <li> +91 9164005500 </li>
+          <li> Bengaluru,India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Electron Semi. All rights reserved. electronsemi.co </span>
+      <div class="social-row">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter / X">X</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

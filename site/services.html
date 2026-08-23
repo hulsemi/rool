@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — Electron Semi</title>
+<meta name="description" content="Semiconductor design services from Electron Semi: analog layout, physical design, RTL to GDSII, DFT, verification, and design consulting.">
+<link rel="icon" href="assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="container">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/logo.jpeg" alt="Electron Semi logo">
+      <span>ELECTRON SEMI</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="#enquiry" class="btn btn-primary"><span class="long">Request a service</span><span>→</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">SERVICES</div>
+      <h1>Full-flow semiconductor design services.</h1>
+      <p class="lede">Engage us for a single block or the full RTL-to-GDSII flow. Every engagement starts with a scoping conversation about your technology node, tools, and timeline.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+
+        <div class="card">
+          <span class="tag">Layout</span>
+          <h3>Analog Layout</h3>
+          <p>Transistor-level layout for analog and mixed-signal circuits — amplifiers, references, converters — with attention to matching, symmetry, and parasitic control.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Layout</span>
+          <h3>Custom Layout</h3>
+          <p>Full-custom layout for blocks that fall outside standard-cell flows, built for density, performance, or a specific electrical requirement.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Layout</span>
+          <h3>Standard Cell Layout</h3>
+          <p>Characterized, DRC/LVS-clean standard cell layout for logic libraries, built to your target technology's design rules.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Physical Design</span>
+          <h3>Physical Design</h3>
+          <p>Floorplanning, placement, clock-tree synthesis, and routing for digital blocks and full chips, with timing and power closure in view.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Full Flow</span>
+          <h3>RTL to GDSII</h3>
+          <p>End-to-end digital implementation from synthesizable RTL through a tape-out-ready GDSII database.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Quality</span>
+          <h3>DFT</h3>
+          <p>Design-for-test insertion — scan chains, BIST, and test-point planning — to support manufacturing test coverage goals.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Quality</span>
+          <h3>Verification</h3>
+          <p>Physical and functional verification — DRC, LVS, and design-intent checks — to catch issues before tape-out.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Design</span>
+          <h3>Circuit Design</h3>
+          <p>Schematic-level circuit design support for analog and mixed-signal blocks, from architecture through simulation.</p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Advisory</span>
+          <h3>Semiconductor Design Consulting</h3>
+          <p>Flow, tooling, and methodology consulting for teams building out or scaling an internal physical design capability.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= SERVICE ENQUIRY FORM ============================= -->
+  <section class="section section--alt" id="enquiry">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">GET IN TOUCH</div>
+        <h2>Request a service</h2>
+        <p class="lede mt-0">Tell us about your project and we'll follow up with scope, approach, and timeline. No submission is shared outside our team.</p>
+      </div>
+
+      <div class="form-wrap">
+        <form data-es-form="service" novalidate>
+          <!-- Honeypot field — left empty by humans, filled in by bots -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="svc-website">Leave this field empty</label>
+            <input type="text" id="svc-website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="svc-name">Full name <span class="req">*</span></label>
+              <input type="text" id="svc-name" name="fullName" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="svc-company">Company name <span class="req">*</span></label>
+              <input type="text" id="svc-company" name="companyName" required autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="svc-email">Work email <span class="req">*</span></label>
+              <input type="email" id="svc-email" name="workEmail" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="svc-phone">Phone</label>
+              <input type="tel" id="svc-phone" name="phone" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="svc-service">Service required <span class="req">*</span></label>
+              <select id="svc-service" name="serviceRequired" required>
+                <option value="" disabled selected>Select a service</option>
+                <option>Analog Layout</option>
+                <option>Custom Layout</option>
+                <option>Standard Cell Layout</option>
+                <option>Physical Design</option>
+                <option>RTL to GDSII</option>
+                <option>DFT</option>
+                <option>Verification</option>
+                <option>Circuit Design</option>
+                <option>Semiconductor Design Consulting</option>
+                <option>Other / Not sure yet</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="svc-node">Technology node</label>
+              <input type="text" id="svc-node" name="technologyNode" placeholder="e.g. 28nm, 65nm, 180nm">
+            </div>
+            <div class="field full">
+              <label for="svc-desc">Project description <span class="req">*</span></label>
+              <textarea id="svc-desc" name="projectDescription" required placeholder="Briefly describe the block or chip, scope, and any known constraints."></textarea>
+            </div>
+            <div class="field">
+              <label for="svc-timeline">Expected timeline</label>
+              <input type="text" id="svc-timeline" name="expectedTimeline" placeholder="e.g. Start in 4 weeks, 3-month engagement">
+            </div>
+            <div class="field">
+              <label for="svc-req">Additional requirements</label>
+              <input type="text" id="svc-req" name="additionalRequirements" placeholder="Tools, NDA needs, foundry, etc.">
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit request →</button>
+            <span style="font-size:.82rem;color:var(--text-faint)">We typically respond within 2 business days. [PLACEHOLDER]</span>
+          </div>
+          <div class="form-msg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.jpeg" alt="Electron Semi logo">
+          <span>ELECTRON SEMI</span>
+        </div>
+        <p style="max-width:32ch">Semiconductor design services — analog layout, physical design, and verification. <i>Dream it, our hands are ready for it</i></p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li> contact@elctronsemi.com </li>
+          <li> +91 9164005500 </li>
+          <li> Bengaluru,India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Electron Semi. All rights reserved. electronsemi.co </span>
+      <div class="social-row">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter / X">X</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

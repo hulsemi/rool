@@ -86,7 +86,7 @@ function initForm(form) {
       }
     }
 
-    if (CONFIG.APPS_SCRIPT_URL.includes("hi")) {
+    if (CONFIG.APPS_SCRIPT_URL.includes("YOUR_APPS_SCRIPT_WEB_APP_URL")) {
       showMessage(
         msgBox,
         "error",

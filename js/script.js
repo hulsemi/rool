@@ -86,7 +86,7 @@ function initForm(form) {
       }
     }
 
-    if (CONFIG.APPS_SCRIPT_URL.includes("YOUR_APPS_SCRIPT_WEB_APP_URL")) {
+    if (CONFIG.APPS_SCRIPT_URL.includes("https://script.google.com/macros/s/AKfycbxi2S8ZmAHgf9PLWQYcHRH52nrKXBTuUyuNjBQfT7t6gxqUbubTycIs1iiXCr-zXu3IWg/exec")) {
       showMessage(
         msgBox,
         "error",

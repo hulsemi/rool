@@ -10,7 +10,7 @@ const CONFIG = {
   // Paste the Web App URL you get after deploying the Google Apps Script
   // (Deploy > New deployment > Web app). It looks like:
   // https://script.google.com/macros/s/AKfycb.../exec
-  APPS_SCRIPT_URL: "YOUR_APPS_SCRIPT_WEB_APP_URLhttps://script.google.com/macros/s/AKfycbxi2S8ZmAHgf9PLWQYcHRH52nrKXBTuUyuNjBQfT7t6gxqUbubTycIs1iiXCr-zXu3IWg/exec",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbxi2S8ZmAHgf9PLWQYcHRH52nrKXBTuUyuNjBQfT7t6gxqUbubTycIs1iiXCr-zXu3IWg/exec",
 
   // Shown in a couple of places on the site (footer, page titles via JS if needed)
   COMPANY_NAME: "Electron Semi"
